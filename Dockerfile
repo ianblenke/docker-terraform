@@ -1,4 +1,5 @@
 FROM busybox:ubuntu-14.04
+MAINTAINER Ian Blenke <ian@blenke.com>
 
 ENV TERRAFORM_VERSION 0.3.1
 RUN mkdir /terraform
